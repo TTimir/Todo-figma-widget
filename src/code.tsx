@@ -81,7 +81,7 @@ function TodoWidget() {
 
       try {
         // ✨ Changed: Using status property directly instead of trying to call get()
-      if (figma.payments.status.type === "PAID") {
+        if (figma.payments.status.type === "PAID") {
         // ✨ Added: Allow task creation for paid users
         setShowUpgradeMessage(false);
         } else {
